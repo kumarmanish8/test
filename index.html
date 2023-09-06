@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internet Breakdown Animation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <button id="animateButton">Break Internet</button>
+    <div class="animation-container">
+        <img id="internetImage" src="internet-image.jpg" alt="Internet Image">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+.animation-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#internetImage {
+    width: 100%;
+    max-width: 500px; /* Adjust the width as needed */
+    transition: transform 1s ease-in-out;
+}
+
+.internet-broken {
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.animation-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#internetImage {
+    width: 100%;
+    max-width: 500px; /* Adjust the width as needed */
+    transition: transform 1s ease-in-out;
+}
+
+.internet-broken {
+    transform: scaleX(0);
+    transform-origin: left;
+}
